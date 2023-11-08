@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    background-image: url(image/logotyping.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.DarkMood{
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    color:white;
+}
+.mood{
+    margin-left: 5px;
+}
+body{
+    background-color:  #E3B448;
+    overflow: hidden;
+}
+.darkmood{
+    height: 25px;
+    width: 25px;
+    border: 2px solid rgba(236, 236, 236, 0.856);
+    border-radius: 50%;
+    background-color: rgba(236, 236, 236, 0.856);
+    font-size: 18px;
+}
+.nav{
+    border: 2px solid black;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 90%;
+    height: 500px;
+    border: 2px solid rgb(255, 255, 255);
+    border-width: 10px;
+    border-radius: 10px;
+    background-color: #CBD18F;
+}
+.inputText{
+    padding: 20% 24.9% 0px;
+    position: absolute;
+    opacity: 0;
+    z-index: -99;
+    
+}
+.textboxdiv{
+    font-size: 20px;
+    text-align: justify;
+}
+.properties{
+    width: 200px;
+    height: 300px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #b9f0e8;
+}
+.innerbox{
+    width: 70%;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.time{
+    display: flex;
+}
+.btn{
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 5px;
+}
+.button{
+    height: 150px;
+}
+.button:active{
+    transform: scale(0.97);
+}
+.data{
+    height: 150px;
+}
+.margin{
+    margin: 15px;
+}
+.text span{
+    position: relative;
+}
+.text span.active{
+    color: orange;
+}
+.text span.correct{
+    color: green;
+    background-color: rgb(152, 235, 152);
+}
+.text span.incorrect{
+    color: red;
+    background-color: rgb(228, 164, 164);
+}
+::selection{
+    background-color: rgb(240, 231, 157);
+}
